@@ -3,10 +3,13 @@
     color: black;
     transition: 600ms;
     padding: 20px;
-    margin: 120px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
 }
 
 .project_item:hover{
     background: gold;
     color: #ffffff; 
+}
+.projectLink a{
+    color: lightseagreen;
 }

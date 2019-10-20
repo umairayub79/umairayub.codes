@@ -13,8 +13,6 @@ class Home extends Component {
                     <title>Umair Ayub - Android App Developer Pakistan</title>
                     <meta name="description" content="{pageContent}" />
                 </Helmet>
-                <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"></link>
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"></link>
                 <h1 className="name">{pageTitle}</h1>
                 <p className="description">Student | Maker</p>
                 <h4 className="about">{pageContent}</h4>
