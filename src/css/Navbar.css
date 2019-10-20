@@ -10,9 +10,10 @@
       transition: all 600ms ease; 
   }  
   .item:hover{
-    background: rgba(0,0,0,0);
+      background: rgba(0,0,0,0);
       color: gold;
       box-shadow: inset -5px -5px 0 1px gold;
+      transform: scale(1.2);
   }
   
   

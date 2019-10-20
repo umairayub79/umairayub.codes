@@ -1,15 +1,16 @@
 .project_item{
     background: #ffffff;
     color: black;
-    transition: 600ms;
+    transition: 400ms;
     padding: 20px;
     margin: 20px 20px 20px 20px;
 }
 
 .project_item:hover{
-    background: gold;
+    background: rgb(214, 111, 27);
     color: #ffffff; 
+    transform: scale(1.2);
 }
 .projectLink a{
-    color: lightseagreen;
+    color: rgb(0, 132, 255);
 }

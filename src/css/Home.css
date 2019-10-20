@@ -12,8 +12,10 @@ a{
 }
 i:hover{
   color: yellow !important;
+  transform: scale(1.3);
 }
 i{
+  transition: 500ms;
   width: 50px;
   margin:10px;
 }
@@ -48,13 +50,14 @@ i{
         font-size: 20px;
         color: white;
         background: transparent;
-        transition: 1s;
+        transition: 500ms;
         border:3px solid white;
         margin: 10px 60px 50px 50px;
         text-transform: uppercase;
       }
       .btn:hover{
         background: #3e64ff;
+        transform: scale(1.1);
       }
 
       .container {
