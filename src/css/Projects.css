@@ -4,6 +4,7 @@
     flex-direction: row;
     place-items: center;
     font-family: 'Poppins', sans-serif;
+    background: black;
     background-size: cover;
     background-attachment: fixed;
 }
