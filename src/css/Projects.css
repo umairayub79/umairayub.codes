@@ -18,3 +18,11 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+
+
+@media only screen and (max-width: 480px) {
+    .projects_list { 
+        flex-direction: column;
+     }
+    }
