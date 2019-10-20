@@ -1,0 +1,10 @@
+.project_item{
+    background: #ffffff;
+    color: black;
+    padding: 16px;
+    margin: 20px;
+}
+
+.project_item:hover{
+    background: blueviolet;
+}

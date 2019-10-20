@@ -11,9 +11,7 @@ Code for my personal website built with React
 - react-router-dom
 - react-snap
 - react-ga
-- node-sass
-- github-markdown-css
-- markdown-with-front-matter-loader
+
 
 #### Commands
 
