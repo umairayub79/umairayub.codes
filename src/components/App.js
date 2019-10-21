@@ -1,20 +1,25 @@
 import React, { Component } from 'react'
 import Home from "./Home"
 import Projects from './Projects'
-import { BrowserRouter, Route } from 'react-router-dom';
+import { Router, Route } from "react-router-dom";
+import { createBrowserHistory } from "history";
+
 import "../css/App.css"
 import Navbar from './Navbar';
+
+const history = createBrowserHistory();
+
 
 class App extends Component {
     render() {
         return (
-            <BrowserRouter>
-            <div className="App">
+            <Router history={history}>
               <Navbar/>
-               <Route exact path="/" component={Home} />
-              <Route path="/projects" component={Projects} />
-            </div>
-          </BrowserRouter>
+              <div className="App">
+                <Route exact path="/" component={Home} />
+                <Route path="/projects/" component={Projects} />
+              </div>
+          </Router>
         );
     }
 }
