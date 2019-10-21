@@ -15,17 +15,15 @@
 }
 .item{
     margin: 20px;
-    border: none;
     color: #f2f2f2;
-    padding: 10px 10px;
+    padding: 5px 5px;
     font-size: 22px;
-    border-radius: 5px;
     position: relative;
     box-sizing: border-box;
-    transition: all 600ms ease; 
+    transition: all 400ms ease; 
     cursor: pointer;
   }  
 .item:hover{
+    transform: scale(1.1);
     color: gold;
-    transform: scale(1.2);
-  }
+}

@@ -2,15 +2,25 @@
     background: #ffffff;
     color: black;
     transition: 400ms;
-    padding: 40px;
+    padding: 20px;
     margin: 10px 10px 10px 10px;
+    width: 250px;
+    height: 250px;
 }
 
 .project_item:hover{
-    background: rgb(214, 111, 27);
+    background: rgba(255, 217, 0, 0.795) ;
     color: #ffffff; 
     transform: scale(1.1);
 }
-.projectLink a{
+.projectLink {
+    font-size: 18px;
+    margin-top: 10px; 
+}
+.projectLink a{ 
     color: rgb(0, 132, 255);
+}
+
+p{
+    margin-top: 15px;
 }
