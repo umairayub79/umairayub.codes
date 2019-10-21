@@ -1,19 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.navigation{
+    display: flex;
+    padding: 30px;
+}
+.navigation-sub:hover{
+    transition: all 600ms ease; 
+    transform: scale(1.4);
+
+}
 .item{
     margin: 20px;
     border: none;
-      color: #f2f2f2;
-      padding: 10px;
-      font-size: 20px;
-      border-radius: 5px;
-      position: relative;
-      box-sizing: border-box;
-      transition: all 600ms ease; 
+    color: #f2f2f2;
+    padding: 10px 10px;
+    font-size: 22px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 600ms ease; 
+    cursor: pointer;
   }  
-  .item:hover{
-      background: rgba(0,0,0,0);
-      color: gold;
-      box-shadow: inset -5px -5px 0 1px gold;
-      transform: scale(1.2);
+.item:hover{
+    color: gold;
+    transform: scale(1.2);
   }
-  
-  
