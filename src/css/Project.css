@@ -1,4 +1,4 @@
-.project_item a{
+.project_item {
     background: #ffffff;
     color: black;
     transition: 400ms;
@@ -13,14 +13,15 @@
     color: #ffffff; 
     transform: scale(1.1);
 }
-a .projectLink {
+ .projectLink {
     font-size: 18px;
     margin-top: 10px; 
 }
-a .projectLink a{ 
+.projectLink a{ 
     color: rgb(0, 132, 255);
 }
 
-a p{
+ p{
     margin-top: 15px;
+    color: black;
 }
