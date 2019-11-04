@@ -13,14 +13,14 @@
     color: #ffffff; 
     transform: scale(1.1);
 }
-.projectLink {
+a .projectLink {
     font-size: 18px;
     margin-top: 10px; 
 }
-.projectLink a{ 
+a .projectLink a{ 
     color: rgb(0, 132, 255);
 }
 
-p{
+a p{
     margin-top: 15px;
 }
