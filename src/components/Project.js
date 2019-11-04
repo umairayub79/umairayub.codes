@@ -8,7 +8,9 @@ class Project extends Component {
         type: PropTypes.string,
         date: PropTypes.string,
         description: PropTypes.string,
-        link: PropTypes.string
+        link: PropTypes.string,
+        linkText : PropTypes.string
+        
         
     }
     
@@ -21,7 +23,7 @@ class Project extends Component {
                     <p>{this.props.type}</p>
                     <p className="project_date">{this.props.date}</p>
                     <div class="projectLink">
-                        <a href={this.props.link} target="_blank">Google Play > </a>
+                        <a href={this.props.link} target="_blank">{this.props.linkText} > </a>
                     </div>
 
                 </div>
