@@ -13,6 +13,9 @@
     color: #ffffff; 
     transform: scale(1.1);
 }
+.project_title{
+    color:white;
+}
  .projectLink {
     font-size: 18px;
     margin-top: 10px; 
