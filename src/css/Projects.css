@@ -1,5 +1,11 @@
+h1{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
 .projects{
-    margin: 0 0 0 0; padding:0;
+    margin-top: 50px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     place-items: center;
