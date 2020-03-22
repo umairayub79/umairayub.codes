@@ -17,23 +17,21 @@ class Project extends Component {
     render() {
         return (
             <React.Fragment>
-               <a href={this.props.link} target="_blank">
-              <div class="card">
-                <div class="card-text">
-                  <span class="date">{this.props.date}</span>
-                  <h4>{this.props.name}</h4>
-                  <p>{this.props.description}</p>
-                  <p>{this.props.type}</p>
-                </div>
-               <div class="card-stats">
-                  <div class="stat">
-                    <div class="link">
-                     <a href={this.props.link} target="_blank">{this.props.linkText}</a>
-                      </div>
-                   </div>
-                 </div>
-                </div>
-                </a>
+              <a href={this.props.link} target="_blank">
+                <div class="card">
+                  <div class="card-text">
+                    <span class="date">{this.props.date}</span>
+                    <h4>{this.props.name}</h4>
+                    <p>{this.props.description} </p>
+                    <p class="type">{this.props.type}</p>
+                  </div>
+                <div class="card-link">
+                      <div class="link">
+                      <a href={this.props.link} target="_blank">{this.props.linkText}</a>
+                    </div>
+                  </div>
+                  </div>
+              </a>
             </React.Fragment>
         )
     }

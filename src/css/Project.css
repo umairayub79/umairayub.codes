@@ -1,61 +1,50 @@
-.card {
-    display: grid;
-    grid-template-columns: 230px;
-    grid-template-rows: 0px 200px 70px;
-    grid-template-areas: "image" "text" "stats";
-    background: white;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-    font-family: roboto;
-    border-radius: 15px;
-    transition: 0.5s ease;
-    cursor: pointer;
-    margin:15px;  
-    text-align: center;
-}  
-  .card-text {
-    grid-area: text;
-  }
-  .card-stats {
-    grid-area: stats; 
-  } 
-  .card-text {
-    grid-area: text;
-    margin: 25px;
-  }
-  .card-text .date {
-    color: rgb(255, 7, 110);
-    font-size:13px;
-  }
-  .card-text p {
-    color: grey;
-    font-size:16px;
-    font-weight: 300;
-    margin-top: 20px;
-  }
-  .card-text h4 {
-    margin-top:15px;
-    font-size:23px;
-    color: black;
-  }
-  .card-stats {
-    text-align: center;
-    grid-area: stats; 
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    background: rgb(219, 193, 43);
-  }
-  .card-stats .stat .link {
-    text-align: center;
-    padding-top: 25px;
-  }
-  .card a {
-    color: royalblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
-  }
-  .card:hover {
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.card-text{
+  margin: 10px;
+  padding: 10px;
+}
+.date{
+  color:  rgb(255, 7, 110);
+}
+
+h4{
+  color: blue;
+   margin-top:5px;
+  font-size:20px;
+}
+
+p{
+  margin: 5px;
+  color: rgb(34, 33, 33);
+  font-size:14px;
+  font-weight: 200;
+}
+.type{
+  margin: 5px;
+  color: rgb(255, 7, 110)
+}
+
+.card-link{
+  background-color: rgb(219, 193, 43);;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-  }
-  
+}
