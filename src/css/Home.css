@@ -1,23 +1,23 @@
-h1{
+h1 {
   margin-top: 100px;
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
   font-size: 40px;
 }
-      
-a{
+
+a {
   text-decoration: none;
   color: white;
 }
-i:hover{
+i:hover {
   color: gold !important;
   transform: scale(1.3);
 }
-i{
+i {
   transition: 500ms;
   width: 50px;
-  margin:10px;
+  margin: 10px;
 }
 .name {
   margin-top: 150px;
@@ -26,40 +26,45 @@ i{
   color: #ffffff;
   font-size: 40px;
 }
-      .description {
-        text-align: center;
-          color: #FCFCFC;
-          margin-bottom: 0px;
+.description {
+  text-align: center;
+  color: #fcfcfc;
+  margin-bottom: 0px;
+}
+.about {
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 22px;
+}
+.languages {
+  color: white;
+  margin: 10px;
+}
+.btn {
+  display: flex;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  transition: 400ms;
+  border: 3px solid white;
+  margin: 10px 60px 50px 50px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background: rgba(255, 217, 0, 0.795);
+  transform: scale(1.1);
+}
 
-      }
-      .about{
-        padding: 5px;
-        text-align: center;
-        color: #ffffff;
-        font-size: 22px;
-      }	
-      .languages{
-        color: white;
-        margin: 10px;
-      }
-      .btn {
-        display: flex;
-        padding: 5px 20px;
-        text-decoration: none;
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-        color: white;
-        background: transparent;
-        transition: 400ms;
-        border:3px solid white;
-        margin: 10px 60px 50px 50px;
-        text-transform: uppercase;
-      }
-      .btn:hover{
-        background: rgba(255, 217, 0, 0.795) ;
-        transform: scale(1.1);
-      }
-
-      .container {
-        margin-bottom: 30px;
-      }
+.social-container {
+  margin-bottom: 30px;
+}
+@media(max-width : 450px){
+  .social-container{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
