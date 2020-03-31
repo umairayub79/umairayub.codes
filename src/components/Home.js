@@ -19,11 +19,11 @@ class Home extends Component {
                 <p className="languages">Languages : Java | Kotlin | Python | HTML | CSS | JavaScript</p>
                 <div className="btn"><a href="mailto:umairayub79@gmail.com"><strong>Hire me !</strong></a></div>
                 <div className="social-container">
-                <a href="https://facebook.com/umairayub28" target="_blank"> <i title="Find me on Facebook" className="fab fa-facebook fa-2x" style={socialStyle}></i></a>
-                <a href="https://twitter.com/UmairAyub79" target="_blank"> <i title="Follow me on twitter" className="fab fa-twitter fa-2x" style={socialStyle}></i></a>
-                <a href="https://producthunt.com/@umairayub18" target="_blank"> <i title="Find me on Product Hunt" className="fab fa-product-hunt fa-2x" style={socialStyle}></i></a>
-                <a href="https://github.com/umairayub79" target="_blank"> <i title="Find me on Github" className="fab fa-github  fa-2x" style={socialStyle}></i></a>
-                <a href="mailto:umairayub79@gmail.com" target="_blank"> <i title="Mail me" className="fas fa-envelope fa-2x" style={socialStyle}></i></a>
+                <a href="https://facebook.com/umairayub28" target="_blank" rel="noopener noreferrer"> <i title="Find me on Facebook" className="fab fa-facebook fa-2x" style={socialStyle}></i></a>
+                <a href="https://twitter.com/UmairAyub79" target="_blank" rel="noopener noreferrer"> <i title="Follow me on twitter" className="fab fa-twitter fa-2x" style={socialStyle}></i></a>
+                <a href="https://producthunt.com/@umairayub18" target="_blank" rel="noopener noreferrer"> <i title="Find me on Product Hunt" className="fab fa-product-hunt fa-2x" style={socialStyle}></i></a>
+                <a href="https://github.com/umairayub79" target="_blank" rel="noopener noreferrer"> <i title="Find me on Github" className="fab fa-github  fa-2x" style={socialStyle}></i></a>
+                <a href="mailto:umairayub79@gmail.com" target="_blank" rel="noopener noreferrer"> <i title="Mail me" className="fas fa-envelope fa-2x" style={socialStyle}></i></a>
             </div>
 
 

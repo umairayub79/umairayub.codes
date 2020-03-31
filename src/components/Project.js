@@ -17,7 +17,7 @@ class Project extends Component {
     render() {
         return (
             <React.Fragment>
-              <a href={this.props.link} target="_blank">
+              <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                 <div class="card">
                   <div class="card-text">
                     <span class="date">{this.props.date}</span>
@@ -27,7 +27,7 @@ class Project extends Component {
                   </div>
                 <div class="card-link">
                       <div class="link">
-                      <a href={this.props.link} target="_blank">{this.props.linkText}</a>
+                      <a href={this.props.link} target="_blank" rel="noopener noreferrer">{this.props.linkText}</a>
                     </div>
                   </div>
                   </div>
