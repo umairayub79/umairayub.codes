@@ -17,6 +17,7 @@ class Projects extends Component {
                         <Project name="Github Stars" description="Open Source Stars" type="Web App" date="Nov 2019" link="https://githubstars.netlify.com" linkText="Visit"/> 
                         <Project name="FindThatBook" description="Find Books easily by searching title, author, publisher or just a keyword" type="Android App" date="Nov 2019" link="https://ply.gl/codes.umair.findthatbook" linkText="Google Play"/> 
                         <Project name="PokeDex" description="List of Pokemons with their types and abilities" type="Web App" date="March 2020" link="https://pokidex.netlify.com" linkText="Visit"/>
+                        <Project name="GetMovies" description="A movie Downloading site" type="Web App" date="April 2020" link="https://app-movies.netlify.com" linkText="Visit"/>
                     </div>
                 </div>
             </React.Fragment>
