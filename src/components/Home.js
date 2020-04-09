@@ -33,7 +33,6 @@ class Home extends Component {
     }
 }
 const socialStyle = {
-    color: "#ffffff",
-    backgroundColor: "#000000"
+    color: "black",
 }
 export default Home;

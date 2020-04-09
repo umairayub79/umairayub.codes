@@ -18,16 +18,16 @@ class Project extends Component {
         return (
             <React.Fragment>
               <a href={this.props.link} target="_blank" rel="noopener noreferrer">
-                <div class="card">
-                  <div class="card-text">
-                    <span class="date">{this.props.date}</span>
+                <div className="card">
+                  <div className="card-text">
+                    <span className="date">{this.props.date}</span>
                     <h4>{this.props.name}</h4>
                     <p>{this.props.description} </p>
-                    <p class="type">{this.props.type}</p>
+                    <p className="type">{this.props.type}</p>
                   </div>
-                <div class="card-link">
-                      <div class="link">
-                      <a href={this.props.link} target="_blank" rel="noopener noreferrer">{this.props.linkText}</a>
+                <div className="card-link">
+                      <div className="link">
+                      <p>{this.props.linkText}</p>
                     </div>
                   </div>
                   </div>

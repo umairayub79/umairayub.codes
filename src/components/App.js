@@ -1,30 +1,32 @@
-import React, { Component } from 'react'
-import Home from "./Home"
-import Projects from './Projects'
-import { Router, Route,Switch} from "react-router-dom";
+import React, { Component } from "react";
+import { Router, Route, Switch } from "react-router-dom";
 import { createBrowserHistory } from "history";
-
-import "../css/App.css"
-import Navbar from './Navbar';
-import NotFound from './NotFound';
+import Navbar from "./Navbar";
+import NotFound from "./NotFound";
+import Home from "./Home";
+import Projects from "./Projects";
+import Blog from "./Blog";
+import Single from "./Single"
+import "../css/App.css";
 
 const history = createBrowserHistory();
 
-
 class App extends Component {
-    render() {
-        return (
-            <Router history={history}>
-              <Navbar/>
-              <div className="App">
-                <Switch>
-                  <Route exact path="/" component={Home} />
-                  <Route path="/projects/" component={Projects} />
-                  <Route component = {NotFound}/>
-                </Switch>
-              </div>
-          </Router>
-        );
-    }
+  render() {
+    return (
+      <Router history={history}>
+        <Navbar />
+        <div className="App">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/projects/" component={Projects} />
+            <Route path="/blog/" component={Blog} />
+            <Route path="/post/:title/" component={Single} />
+            <Route component={NotFound} />
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 }
 export default App;
