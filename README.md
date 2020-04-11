@@ -1,5 +1,7 @@
+
 ## umair.codes
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c5bdee03-4fd4-4315-b67e-7382645bfc2b/deploy-status)](https://app.netlify.com/sites/umairayub/deploys)
 
 Code for my personal website and blog built with React
 
