@@ -6,8 +6,9 @@ import NotFound from "./NotFound";
 import Home from "./Home";
 import Projects from "./Projects";
 import Blog from "./Blog";
-import Single from "./Single"
+import Single from "./Single";
 import "../css/App.css";
+import Footer from "./Footer";
 
 const history = createBrowserHistory();
 
@@ -25,6 +26,7 @@ class App extends Component {
             <Route component={NotFound} />
           </Switch>
         </div>
+        <Footer />
       </Router>
     );
   }
