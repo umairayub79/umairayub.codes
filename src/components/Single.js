@@ -3,11 +3,12 @@ import { NavLink } from "react-router-dom";
 import Helmet from "react-helmet";
 import Posts from "./Posts";
 import "github-markdown-css";
-
+import "../css/Single.css";
 const Single = ({ match }) => {
   var post;
 
-  [...Posts()].map(item => {
+  // eslint-disable-next-line
+  [...Posts()].map((item) => {
     const url = item[0];
     if (url === match.params.title) {
       post = item;
@@ -17,10 +18,7 @@ const Single = ({ match }) => {
   const { title, date, __content } = post[1];
 
   var d = new Date(date);
-  var dated = d
-    .toISOString()
-    .slice(0, 10)
-    .replace(/-/g, "/");
+  var dated = d.toISOString().slice(0, 10).replace(/-/g, "/");
 
   return (
     <Fragment>
