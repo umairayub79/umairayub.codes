@@ -19,3 +19,13 @@ li {
 li:hover {
     background-color: rgb(250, 250, 243);
 }
+
+@media (max-width : 500px) {
+
+    ul {
+        min-width: 300px;
+    }
+    li{
+        font-size: 18px;
+    }
+}
