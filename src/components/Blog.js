@@ -14,13 +14,13 @@ export default class Blog extends Component {
         </Helmet>
         <div className="container">
           <h1 className="pageTitle">{pageTitle}</h1>
-          <ul className="nn_blog-list">
+          <ul className="blogList">
             {[...Posts()].map((post) => {
               const url = post[0];
               const { title } = post[1];
               console.log(url);
               return (
-                <li>
+                <li className="listItem">
                   <NavLink
                     key={url}
                     style={{ display: "block" }}

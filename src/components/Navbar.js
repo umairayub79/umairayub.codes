@@ -13,6 +13,11 @@ export default class Navbar extends Component {
             </Link>
           </div>
           <div className="navigation-sub">
+            <Link to="/About" className="item">
+              About
+            </Link>
+          </div>
+          <div className="navigation-sub">
             <Link to="/Projects" className="item">
               Projects
             </Link>

@@ -1,0 +1,35 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+}
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    max-width:700px;
+}
+p {
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 25px;
+}
+ul{
+    padding: 20px;
+}
+.myImage{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.info{
+    color: rgb(71, 71, 71);
+}
+
+@media (max-width : 500px) {
+     p {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+
+}
