@@ -21,13 +21,13 @@ class Project extends Component {
                 <div className="card">
                   <div className="card-text">
                     <span className="date">{this.props.date}</span>
-                    <h4>{this.props.name}</h4>
-                    <p>{this.props.description} </p>
+                    <h4 className="ProjectName">{this.props.name}</h4>
+                    <p className="ProjectDescription">{this.props.description} </p>
                     <p className="type">{this.props.type}</p>
                   </div>
                 <div className="card-link">
                       <div className="link">
-                      <p>{this.props.linkText}</p>
+                      <p className="linkText">{this.props.linkText}</p>
                     </div>
                   </div>
                   </div>
