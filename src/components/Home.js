@@ -22,8 +22,11 @@ class Home extends Component {
                 <a href="https://facebook.com/umairayub28" target="_blank" rel="noopener noreferrer"> <i title="Find me on Facebook" className="fab fa-facebook fa-2x" style={socialStyle}></i></a>
                 <a href="https://twitter.com/UmairAyub79" target="_blank" rel="noopener noreferrer"> <i title="Follow me on twitter" className="fab fa-twitter fa-2x" style={socialStyle}></i></a>
                 <a href="https://producthunt.com/@umairayub18" target="_blank" rel="noopener noreferrer"> <i title="Find me on Product Hunt" className="fab fa-product-hunt fa-2x" style={socialStyle}></i></a>
+                <a href="https://www.youtube.com/channel/UC1ybBPjQ-wcvl9kzdhrC9TQ" target="_blank" rel="noopener noreferrer"> <i title="Subscribe on my youtube Channel" className="fab fa-youtube fa-2x" style={socialStyle}></i></a>
                 <a href="https://github.com/umairayub79" target="_blank" rel="noopener noreferrer"> <i title="Find me on Github" className="fab fa-github  fa-2x" style={socialStyle}></i></a>
                 <a href="mailto:umairayub79@gmail.com" target="_blank" rel="noopener noreferrer"> <i title="Mail me" className="fas fa-envelope fa-2x" style={socialStyle}></i></a>
+       
+
             </div>
 
 
