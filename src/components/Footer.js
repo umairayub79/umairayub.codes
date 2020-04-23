@@ -1,12 +1,11 @@
-import React, { Component } from "react";
+import React from 'react';
 
 const date = new Date();
-export default class Footer extends Component {
-  render() {
-    return (
-      <footer className="footer">
-        <p>Umair Ayub &copy; {date.getFullYear()}</p>
-      </footer>
-    );
-  }
+
+export default function Footer() {
+  return (
+    <footer className="footer">
+      <p>Umair Ayub &copy; {date.getFullYear()}</p>
+    </footer>
+  );
 }
