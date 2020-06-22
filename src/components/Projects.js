@@ -94,6 +94,22 @@ export default function Projects() {
             link="https://app-movies.netlify.com"
             linkText="Visit"
           />
+          <Project
+            name="Hit the Pumpkin Man"
+            description="A whack a mole like Game"
+            type="Android Game"
+            date="May 2020"
+            link="https://ply.gl/codes.umair.hitandroid"
+            linkText="Visit"
+          />
+          <Project
+            name="Quotes"
+            description="Best Quotes and Sayings"
+            type="Android App"
+            date="Jun 2020"
+            link="https://ply.gl/codes.umair.quotes"
+            linkText="Visit"
+          />
         </div>
       </div>
     </Fragment>
