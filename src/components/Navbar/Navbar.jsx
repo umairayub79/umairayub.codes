@@ -15,9 +15,6 @@ const Navbar = () => {
                     <li className={'transition-all duration-200 hover:translate-y-1 hover:text-blue-600'}>
                         <NavLink to={'/projects'} className={'relative text-black text-xl cursor-pointer hover:text-blue-600'}>Projects</NavLink>
                     </li>
-                    <li className={'transition-all duration-200 hover:translate-y-1 hover:text-blue-600'}>
-                        <NavLink to={'/blog'} className={'relative text-black text-xl cursor-pointer hover:text-blue-600'}>Blog</NavLink>
-                    </li>
                 </ul>
             </nav>
         </header>
