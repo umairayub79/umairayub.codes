@@ -4,7 +4,6 @@ import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import ProjectsPage from "./pages/ProjectsPage"
 import AboutPage from "./pages/AboutPage"
-import BlogsPage from "./pages/BlogsPage"
 import NotFoundPage from "./pages/NotFoundPage"
 
 function App() {
