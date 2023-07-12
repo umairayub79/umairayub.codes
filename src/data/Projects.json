@@ -1,0 +1,116 @@
+{
+    "projects": [
+        {
+            "name": "MyFlex",
+            "description": "Movie Browser",
+            "type": "Web App",
+            "date": "June 2023",
+            "link": "https://mflixi.netlify.app",
+            "linkText": "Visit"
+        },
+        {
+            "name": "Balochi SpellingBee",
+            "description": "New York Times Spelling Bee Clone in Balochi",
+            "type": "Web App",
+            "date": "February 2023",
+            "link": "https://balochibee.netlify.app",
+            "linkText": "Visit"
+        },
+        {
+            "name": "Sayad Ganj",
+            "description": "The First Balochi Dictionary",
+            "type": "Desktop App",
+            "date": "August 2022",
+            "link": "https://github.com/umairayub79/SayadGanj-Desktop",
+            "linkText": "Visit"
+        },
+        {
+            "name": "Labzle",
+            "description": "Labzle is a Balochi version of the popular word game Wordle.",
+            "type": "Web App",
+            "date": "May 2022",
+            "link": "https://labzle.netlify.app",
+            "linkText": "Visit"
+        },
+        {
+            "name": "Quotes",
+            "description": "Best Quotes and Sayings",
+            "type": "Android App",
+            "date": "Jun 2020",
+            "link": "https://ply.gl/codes.umair.quotes",
+            "linkText": "Visit"
+        },
+        {
+            "name": "Hit the Pumpkin Man",
+            "description": "A whack a mole like Game",
+            "type": "Android Game",
+            "date": "May 2020",
+            "link": "https://ply.gl/codes.umair.hitandroid",
+            "linkText": "Visit"
+        },
+        {
+            "name": "MaDialog",
+            "description": "Material Alert Dialog Library",
+            "type": "Android Library",
+            "date": "July 2019",
+            "link": "https://ply.gl/umairayub.madialogdemoapp",
+            "linkText": "Google Play"
+        },
+        {
+            "name": "BitLauncher",
+            "description": "Minimalist Launcher",
+            "type": "Android App",
+            "date": "July 2019",
+            "link": "https://ply.gl/umairayub.bitlauncher",
+            "linkText": "Google Play"
+        },
+        {
+            "name": "FindThatBook",
+            "description": "Find Books easily by searching title, author, publisher or just a keyword",
+            "type": "Android App",
+            "date": "Nov 2019",
+            "link": "https://ply.gl/codes.umair.findthatbook",
+            "linkText": "Google Play"
+        },
+        {
+            "name": "Github Stars",
+            "description": "Open Source Stars",
+            "type": "Web App",
+            "date": "Nov 2019",
+            "link": "https://githubstars.netlify.com",
+            "linkText": "Visit"
+        },
+        {
+            "name": "ProjectLog",
+            "description": "Project Progress Logger",
+            "type": "Android App",
+            "date": "May 2019",
+            "link": "https://ply.gl/umairayub.projectlog",
+            "linkText": "Google Play"
+        },
+        {
+            "name": "HTML Generator",
+            "description": "Generate Html in a Click",
+            "type": "Android App",
+            "date": "April 2019",
+            "link": "https://ply.gl/umairayub.htmlgenerator",
+            "linkText": "Google Play"
+        },
+        {
+            "name": "Rock.it Launcher",
+            "description": "Simple Launcher and Minimal",
+            "type": "Android App",
+            "date": "March 2019",
+            "link": "https://ply.gl/umairayub.rockitlauncher",
+            "linkText": "Google Play"
+        },
+        {
+            "name": "AppManager",
+            "description": "Manage all your apps",
+            "type": "Android App",
+            "date": "December 2018",
+            "link": "https://ply.gl/umairayub.appmanager",
+            "linkText": "Google Play"
+        }
+    ]
+}
