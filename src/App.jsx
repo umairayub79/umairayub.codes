@@ -11,7 +11,7 @@ function App() {
     <>
       <div className="flex flex-col gap-5 items-center h-screen">
         <Navbar />
-        <div className="flex flex-col w-full h-full items-center mb-3">
+        <div className="flex flex-col w-full h-full items-center my-14">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
