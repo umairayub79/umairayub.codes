@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <header className='shadow w-full fixed top-0 left-0'>
       <nav className='md:flex items-center justify-between bg-white py-3 md:px-10 px-7'>
-        <NavLink to="/" className="font-bold text-2xl cursor-pointer flex items-center gap-1">
+        <NavLink to="/" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left font-bold text-2xl cursor-pointer  items-center gap-1">
           Umair Ayub
         </NavLink>
 

@@ -5,7 +5,7 @@ const Project = ({ project }) => {
     const { name, description, type, date, link,} = project;
 
     return (
-            <Link to={link} target='_blank' className='bg-white rounded-lg shadow-md p-6'>
+            <Link to={link} target='_blank' className='bg-white rounded-lg shadow-md p-6 border border-gray-300 transition-all hover:scale-95 hover:border-blue-700'>
                     <h2 className="text-xl font-semibold mb-4">{name}</h2>
                     <p className="text-gray-600 mb-4">{description}</p>
                     <div className="mb-4">
