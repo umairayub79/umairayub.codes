@@ -9,6 +9,14 @@
             "linkText": "Visit"
         },
         {
+            "name": "Word Search Generator",
+            "description": "Word Search Puzzle Generator",
+            "type": "Web App",
+            "date": "March 2023",
+            "link": "https://w-search.netlify.app",
+            "linkText": "Visit"
+        },
+        {
             "name": "Balochi SpellingBee",
             "description": "New York Times Spelling Bee Clone in Balochi",
             "type": "Web App",
