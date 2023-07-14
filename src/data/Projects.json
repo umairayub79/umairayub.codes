@@ -41,6 +41,14 @@
             "linkText": "Visit"
         },
         {
+            "name": "Chip-8",
+            "description": "Chip-8 Emulator/Interpreter",
+            "type": "Web App",
+            "date": "April 2021",
+            "link": "https://chip-8js.netlify.app",
+            "linkText": "Visit"
+        },
+        {
             "name": "Quotes",
             "description": "Best Quotes and Sayings",
             "type": "Android App",
