@@ -52,8 +52,8 @@
             "name": "Quotes",
             "description": "Best Quotes and Sayings",
             "type": "Android App",
-            "date": "Jun 2020",
-            "link": "https://ply.gl/codes.umair.quotes",
+            "date": "June 2020",
+            "link": "https://play.google.com/store/apps/details?id=codes.umair.quotes",
             "linkText": "Visit"
         },
         {
@@ -61,7 +61,31 @@
             "description": "A whack a mole like Game",
             "type": "Android Game",
             "date": "May 2020",
-            "link": "https://ply.gl/codes.umair.hitandroid",
+            "link": "https://play.google.com/store/apps/details?id=codes.umair.hitandroid",
+            "linkText": "Visit"
+        },
+        {
+            "name": "FindThatBook",
+            "description": "Find Books easily by searching title, author, publisher or just a keyword",
+            "type": "Android App",
+            "date": "November 2019",
+            "link": "https://github.com/umairayub79/FindThatBook",
+            "linkText": "Google Play"
+        },
+        {
+            "name": "Github Stars",
+            "description": "Open Source Stars",
+            "type": "Web App",
+            "date": "November 2019",
+            "link": "https://githubstars.netlify.com",
+            "linkText": "Visit"
+        },
+        {
+            "name": "AllPaper",
+            "description": "Wallpaper App",
+            "type": "Android App",
+            "date": "September 2019",
+            "link": "https://github.com/umairayub79/AllPaper",
             "linkText": "Visit"
         },
         {
@@ -69,7 +93,7 @@
             "description": "Material Alert Dialog Library",
             "type": "Android Library",
             "date": "July 2019",
-            "link": "https://ply.gl/umairayub.madialogdemoapp",
+            "link": "https://play.google.com/store/apps/details?id=umairayub.madialogdemoapp",
             "linkText": "Google Play"
         },
         {
@@ -77,31 +101,15 @@
             "description": "Minimalist Launcher",
             "type": "Android App",
             "date": "July 2019",
-            "link": "https://ply.gl/umairayub.bitlauncher",
+            "link": "https://play.google.com/store/apps/details?id=umairayub.bitlauncher",
             "linkText": "Google Play"
-        },
-        {
-            "name": "FindThatBook",
-            "description": "Find Books easily by searching title, author, publisher or just a keyword",
-            "type": "Android App",
-            "date": "Nov 2019",
-            "link": "https://ply.gl/codes.umair.findthatbook",
-            "linkText": "Google Play"
-        },
-        {
-            "name": "Github Stars",
-            "description": "Open Source Stars",
-            "type": "Web App",
-            "date": "Nov 2019",
-            "link": "https://githubstars.netlify.com",
-            "linkText": "Visit"
         },
         {
             "name": "ProjectLog",
             "description": "Project Progress Logger",
             "type": "Android App",
             "date": "May 2019",
-            "link": "https://ply.gl/umairayub.projectlog",
+            "link": "https://play.google.com/store/apps/details?id=umairayub.projectlog",
             "linkText": "Google Play"
         },
         {
@@ -109,15 +117,15 @@
             "description": "Generate Html in a Click",
             "type": "Android App",
             "date": "April 2019",
-            "link": "https://ply.gl/umairayub.htmlgenerator",
+            "link": "https://play.google.com/store/apps/details?id=umairayub.htmlgenerator",
             "linkText": "Google Play"
         },
         {
             "name": "Rock.it Launcher",
             "description": "Simple Launcher and Minimal",
-            "type": "Android App",
+            "type": "Android App - Dead",
             "date": "March 2019",
-            "link": "https://ply.gl/umairayub.rockitlauncher",
+            "link": "#",
             "linkText": "Google Play"
         },
         {
@@ -125,7 +133,7 @@
             "description": "Manage all your apps",
             "type": "Android App",
             "date": "December 2018",
-            "link": "https://ply.gl/umairayub.appmanager",
+            "link": "https://play.google.com/store/apps/details?id=umairayub.appmanager",
             "linkText": "Google Play"
         }
     ]
