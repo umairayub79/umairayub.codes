@@ -1,5 +1,5 @@
 
-## umair.codes
+## umairayub.codes
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c5bdee03-4fd4-4315-b67e-7382645bfc2b/deploy-status)](https://app.netlify.com/sites/umairayub/deploys)
 
@@ -12,12 +12,12 @@ To run the project locally, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
    ```
-   git clone https://github.com/umairayub79/umair.codes
+   git clone https://github.com/umairayub79/umairayub.codes
    ```
 
 2. Navigate to the project directory:
    ```
-   cd umair.codes
+   cd umairayub.codes
    ```
 
 3. Install the dependencies using npm or yarn:
