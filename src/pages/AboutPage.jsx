@@ -1,40 +1,128 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import { Helmet } from "react-helmet";
+import { motion } from "framer-motion";
+import ExperienceData from "../data/Experience.json";
+import { FaGraduationCap, FaBriefcase, FaCode } from "react-icons/fa6";
 
 const AboutPage = () => {
-    return (
-        <div className="flex flex-col lg:flex-row max-w-4xl mx-auto p-4">
-            <Helmet>
-                <title>About - Umair Ayub</title>
-            </Helmet>
-            <div className="flex flex-col max-w-lg p-4 order-2">
-                <h1 className="text-3xl font-bold mb-4">About Me</h1>
-                <p className="text-lg text-gray-700 mb-6">
-                    Hi, I'm Umair Ayub, a self-taught student and maker. I started my web development journey in 2019 and have been passionate about it ever since.
-                </p>
-                <p className="text-lg text-gray-700 mb-6">
-                    I have experience working with various technologies including HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, and have built responsive and user-friendly web applications.
-                </p>
-                <p className="text-lg text-gray-700 mb-6">
-                    Additionally, I have also ventured into Android app development using both Java and Kotlin. It has been an exciting journey exploring the mobile development space and creating engaging Android applications.
-                </p>
-                <p className="text-lg text-gray-700 mb-6">
-                    As a continuous learner, I am always eager to expand my knowledge and stay up-to-date with the latest trends and advancements in the industry. I enjoy exploring new technologies, frameworks, and tools to enhance my skills and improve my craft.
-                </p>
-                <p className="text-lg text-gray-700">
-                    In my free time, I love working on personal projects, experimenting with new ideas, and applying what I have learned. I believe that the process of learning and building is a valuable part of my growth as a developer.
-                </p>
-                <p className="text-lg text-gray-700 mb-6">
-                    I am excited about the possibilities in the web and mobile development field, and I look forward to contributing to meaningful projects and collaborating with like-minded individuals. If you would like to connect or have any inquiries, please feel free to reach out to me through the contact information provided below.
-                </p>
-                <p className="text-lg text-gray-600">
-                    This website was built using React and other tools. Hosted on
-                    Netlify.
-                </p>
+  return (
+    <div className="section-container">
+      <Helmet>
+        <title>About | Umair Ayub</title>
+      </Helmet>
+
+      <div className="grid lg:grid-cols-12 gap-16">
+        {/* Left Column - Intro */}
+        <div className="lg:col-span-7 space-y-12">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            <h1 className="text-4xl md:text-6xl font-bold mb-8">
+              The Story <span className="solid-text-accent">So Far</span>
+            </h1>
+            <div className="space-y-6 text-lg text-brand-muted leading-relaxed">
+              <p>
+                Hi, I'm{" "}
+                <span className="text-white font-medium">Umair Ayub</span>, a
+                self-taught developer and student driven by the desire to build
+                things that solve real-world problems.
+              </p>
+              <p>
+                My journey began in <span className="text-white">2019</span>{" "}
+                with a simple curiosity about how things work on the web. Since
+                then, I've expanded my expertise across
+                <span className="text-white"> Web and Mobile development</span>,
+                always aiming for perfection in both code and design.
+              </p>
+              <p>
+                A core part of my identity is my work in{" "}
+                <span className="text-primary-400">Cultural Technology</span>.
+                Through projects like TheBalochi, I leverage my technical skills
+                to preserve the linguistic and cultural heritage of the Balochi
+                people, bridging the gap between tradition and the digital
+                future.
+              </p>
             </div>
-            <img src="https://avatars.githubusercontent.com/u/46655787?v=4" className="rounded-full w-60 h-60 lg:w-72 lg:h-72 mx-auto mt-4 lg:mt-0 lg:order-2" alt="Profile" />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="space-y-6"
+          >
+            <h2 className="text-2xl font-bold flex items-center gap-3">
+              <FaCode className="text-primary-500" /> Technical Arsenal
+            </h2>
+            <div className="flex flex-wrap gap-3">
+              {[
+                "React",
+                "Next.js",
+                "Flutter",
+                "Tailwind CSS",
+                "Node.js",
+                "Kotlin",
+                "JavaScript",
+                "TypeScript",
+                "PHP",
+                "SQLite",
+                "MySQL",
+              ].map((skill) => (
+                <span key={skill} className="skill-badge">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </motion.div>
         </div>
-    );
+
+        {/* Right Column - Experience & Visual */}
+        <div className="lg:col-span-5 space-y-12">
+          <div className="space-y-8">
+            <h2 className="text-2xl font-bold flex items-center gap-3">
+              <FaBriefcase className="text-primary-500" /> Experience
+            </h2>
+            <div className="mt-8 space-y-2">
+              {ExperienceData.map((exp, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
+                  className="experience-card"
+                >
+                  <h3 className="text-xl font-bold text-white">{exp.title}</h3>
+                  <div className="flex justify-between items-center mb-4">
+                    <p className="text-primary-400 font-medium">
+                      {exp.company}
+                    </p>
+                    <span className="text-xs text-brand-muted bg-white/5 px-2 py-1 rounded">
+                      {exp.period}
+                    </span>
+                  </div>
+                  <p className="text-brand-muted text-sm leading-relaxed mb-4">
+                    {exp.description}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {exp.skills.map((skill) => (
+                      <span
+                        key={skill}
+                        className="text-[10px] uppercase tracking-wider text-brand-muted/70 bg-white/5 px-2 py-0.5 rounded border border-white/5"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default AboutPage;

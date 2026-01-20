@@ -1,140 +1,67 @@
 {
-    "projects": [
-        {
-            "name": "MyFlex",
-            "description": "Movie Browser",
-            "type": "Web App",
-            "date": "June 2023",
-            "link": "https://mflixi.netlify.app",
-            "linkText": "Visit"
-        },
-        {
-            "name": "Word Search Generator",
-            "description": "Word Search Puzzle Generator",
-            "type": "Web App",
-            "date": "March 2023",
-            "link": "https://w-search.netlify.app",
-            "linkText": "Visit"
-        },
-        {
-            "name": "Balochi SpellingBee",
-            "description": "New York Times Spelling Bee Clone in Balochi",
-            "type": "Web App",
-            "date": "February 2023",
-            "link": "https://balochibee.netlify.app",
-            "linkText": "Visit"
-        },
-        {
-            "name": "Sayad Ganj",
-            "description": "The First Balochi Dictionary",
-            "type": "Desktop App",
-            "date": "August 2022",
-            "link": "https://github.com/umairayub79/SayadGanj-Desktop",
-            "linkText": "Visit"
-        },
-        {
-            "name": "Labzle",
-            "description": "Labzle is a Balochi version of the popular word game Wordle.",
-            "type": "Web App",
-            "date": "May 2022",
-            "link": "https://labzle.netlify.app",
-            "linkText": "Visit"
-        },
-        {
-            "name": "Chip-8",
-            "description": "Chip-8 Emulator/Interpreter",
-            "type": "Web App",
-            "date": "April 2021",
-            "link": "https://chip-8js.netlify.app",
-            "linkText": "Visit"
-        },
-        {
-            "name": "Quotes",
-            "description": "Best Quotes and Sayings",
-            "type": "Android App",
-            "date": "June 2020",
-            "link": "https://play.google.com/store/apps/details?id=codes.umair.quotes",
-            "linkText": "Visit"
-        },
-        {
-            "name": "Hit the Pumpkin Man",
-            "description": "A whack a mole like Game",
-            "type": "Android Game",
-            "date": "May 2020",
-            "link": "https://play.google.com/store/apps/details?id=codes.umair.hitandroid",
-            "linkText": "Visit"
-        },
-        {
-            "name": "FindThatBook",
-            "description": "Find Books easily by searching title, author, publisher or just a keyword",
-            "type": "Android App",
-            "date": "November 2019",
-            "link": "https://github.com/umairayub79/FindThatBook",
-            "linkText": "Google Play"
-        },
-        {
-            "name": "Github Stars",
-            "description": "Open Source Stars",
-            "type": "Web App",
-            "date": "November 2019",
-            "link": "https://githubstars.netlify.com",
-            "linkText": "Visit"
-        },
-        {
-            "name": "AllPaper",
-            "description": "Wallpaper App",
-            "type": "Android App",
-            "date": "September 2019",
-            "link": "https://github.com/umairayub79/AllPaper",
-            "linkText": "Visit"
-        },
-        {
-            "name": "MaDialog",
-            "description": "Material Alert Dialog Library",
-            "type": "Android Library",
-            "date": "July 2019",
-            "link": "https://play.google.com/store/apps/details?id=umairayub.madialogdemoapp",
-            "linkText": "Google Play"
-        },
-        {
-            "name": "BitLauncher",
-            "description": "Minimalist Launcher",
-            "type": "Android App",
-            "date": "July 2019",
-            "link": "https://play.google.com/store/apps/details?id=umairayub.bitlauncher",
-            "linkText": "Google Play"
-        },
-        {
-            "name": "ProjectLog",
-            "description": "Project Progress Logger",
-            "type": "Android App",
-            "date": "May 2019",
-            "link": "https://play.google.com/store/apps/details?id=umairayub.projectlog",
-            "linkText": "Google Play"
-        },
-        {
-            "name": "HTML Generator",
-            "description": "Generate Html in a Click",
-            "type": "Android App",
-            "date": "April 2019",
-            "link": "https://play.google.com/store/apps/details?id=umairayub.htmlgenerator",
-            "linkText": "Google Play"
-        },
-        {
-            "name": "Rock.it Launcher",
-            "description": "Simple Launcher and Minimal",
-            "type": "Android App - Dead",
-            "date": "March 2019",
-            "link": "#",
-            "linkText": "Google Play"
-        },
-        {
-            "name": "AppManager",
-            "description": "Manage all your apps",
-            "type": "Android App",
-            "date": "December 2018",
-            "link": "https://play.google.com/store/apps/details?id=umairayub.appmanager",
-            "linkText": "Google Play"
-        }
-    ]
+  "projects": [
+    {
+      "name": "Unheard Voices - Balochi Short Stories",
+      "description": "A digital platform dedicated to preserving and sharing the rich cultural heritage of Balochi literature. Built to make valuable stories accessible to a wider audience while maintaining authenticity.",
+      "type": "Web App",
+      "date": "Aug 2025 - Present",
+      "link": "https://unheardvoices.thebalochi.com",
+      "linkText": "Visit Site",
+      "skills": ["Next.js", "SQLite3", "Tailwind CSS", "React.js"]
+    },
+    {
+      "name": "Balochi Chaach",
+      "description": "An Android app compiling traditional Balochi riddles (Chaach) to support the preservation of oral literature in a structured digital format.",
+      "type": "Android App",
+      "date": "Jun 2025 - Present",
+      "link": "https://play.google.com/store/apps/details?id=com.thebalochi.chaach",
+      "linkText": "Google Play",
+      "skills": ["Flutter", "SQLite3", "Dart"]
+    },
+    {
+      "name": "Balochi Batal",
+      "description": "A mobile app that curates traditional Balochi proverbs with translations and meanings, promoting cultural heritage in the digital age.",
+      "type": "Android App",
+      "date": "Mar 2024 - Present",
+      "link": "https://play.google.com/store/apps/details?id=com.thebalochi.batal",
+      "linkText": "Google Play",
+      "skills": ["Flutter", "Mobile Development", "SQLite3"]
+    },
+    {
+      "name": "Word Search Generator",
+      "description": "A specialized puzzle generator that allows users to create customized word search puzzles effortlessly with a seamless interactive experience.",
+      "type": "Web App",
+      "date": "Mar 2023",
+      "link": "https://w-search.netlify.app",
+      "linkText": "Visit",
+      "skills": ["React", "JavaScript", "Tailwind CSS", "Responsive Design"]
+    },
+    {
+      "name": "SayadGanj Balochi Dictionary",
+      "description": "A comprehensive dictionary for the Balochi language, available as a cross-platform desktop application and a web-based platform.",
+      "type": "Desktop & Web",
+      "date": "Aug 2022 - Nov 2022",
+      "link": "https://github.com/umairayub79/SayadGanj-Desktop",
+      "linkText": "Github",
+      "skills": ["Electron.js", "React", "SQLite3", "Nodejs"]
+    },
+    {
+      "name": "Labzle",
+      "description": "A Balochi word game inspired by Wordle, offering a fun and interactive way to engage with the Balochi language through gamification.",
+      "type": "Web App",
+      "date": "May 2022",
+      "link": "https://labzle.netlify.app",
+      "linkText": "Visit",
+      "skills": ["React.js", "Tailwind CSS", "Game Logic"]
+    },
+    {
+      "name": "Chip-8 Emulator",
+      "description": "A high-performance Chip-8 interpreter enabling retro gaming on modern browsers through accurate system emulation.",
+      "type": "Web App",
+      "date": "Apr 2021",
+      "link": "https://chip-8js.netlify.app",
+      "linkText": "Visit",
+      "skills": ["JavaScript", "HTML5 Canvas", "CSS3"]
+    }
+  ]
 }

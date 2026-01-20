@@ -1,73 +1,16 @@
+# React + Vite
 
-## umairayub.codes
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c5bdee03-4fd4-4315-b67e-7382645bfc2b/deploy-status)](https://app.netlify.com/sites/umairayub/deploys)
+Currently, two official plugins are available:
 
-This repository contains the source code for my portfolio website, a React application built with Vite and Tailwind CSS. The website is deployed to Netlify for easy access and hosting.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## React Compiler
 
-## Installation
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-To run the project locally, follow these steps:
+## Expanding the ESLint configuration
 
-1. Clone the repository to your local machine using the following command:
-   ```
-   git clone https://github.com/umairayub79/umairayub.codes
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd umairayub.codes
-   ```
-
-3. Install the dependencies using npm or yarn:
-   ```
-   npm install
-   ```
-   or
-   ```
-   yarn install
-   ```
-
-## Development
-
-To start the development server, use the following command:
-
-```
-npm run dev
-```
-
-or
-
-```
-yarn dev
-```
-
-This will start the development server and provide you with a local URL where you can preview the website.
-
-## Building for Production
-
-To build the project for production, use the following command:
-
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-This will create an optimized and minified version of the website in the `dist` directory.
-
-
-
-
-## License
-
-The project is available under the [MIT License](LICENSE.md). Feel free to use it as a template for your own portfolio or modify it to suit your needs.
-
----
-
-Thank you for checking out my portfolio Git repository! If you have any questions or need further assistance, feel free to reach out.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

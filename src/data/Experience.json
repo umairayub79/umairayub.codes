@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Junior Developer",
+    "company": "Cloud Media Digital W.L.L",
+    "location": "Bahrain · Remote",
+    "period": "Apr 2024 - Present",
+    "description": "Contributing to the development of digital media solutions and web applications, ensuring high-quality code and seamless user experiences across international projects.",
+    "skills": [
+      "Web Development",
+      "WordPress",
+      "PHP",
+      "UI/UX Design",
+      "Team Collaboration"
+    ]
+  },
+  {
+    "title": "Co-Founder",
+    "company": "TheBalochi",
+    "location": "Remote",
+    "period": "Sep 2020 - Present",
+    "description": "Leading the digital strategy and development for a platform dedicated to the preservation and promotion of Balochi language and culture.",
+    "skills": [
+      "Leadership",
+      "Digital Strategy",
+      "Community Building",
+      "Frontend Development"
+    ]
+  },
+  {
+    "title": "Freelance Web Developer",
+    "company": "Balochi Academy Quetta",
+    "location": "Quetta, Balochistan · Remote",
+    "period": "Jun 2025 - Jul 2025",
+    "description": "Led the redesign and deployment of bathalganj.com. Key achievements include developing a custom WordPress CMS plugin, improving UI/UX responsiveness, integrating structured data for SEO, and implementing robust security enhancements.",
+    "skills": ["WordPress", "PHP", "UI/UX Design", "SEO", "Security"]
+  },
+  {
+    "title": "React Developer (Intern)",
+    "company": "sharyng.ai",
+    "location": "Karachi, Pakistan",
+    "period": "Nov 2023 - Apr 2024",
+    "description": "Gained hands-on experience in building and optimizing scalable web applications using React.js and modern frontend technologies during an intensive 6-month internship.",
+    "skills": [
+      "React.js",
+      "Frontend Optimization",
+      "JavaScript",
+      "Software Design"
+    ]
+  }
+]

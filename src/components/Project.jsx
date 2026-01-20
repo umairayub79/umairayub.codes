@@ -1,26 +1,64 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Project = ({ project }) => {
-  const { name, description, type, date, link } = project;
+  const { name, description, type, date, link, linkText, skills } = project;
 
   return (
-    <Link
-      to={link}
-      target={link == "#" ? "_self" : "_blank"}
-      className="bg-white rounded-lg shadow-md p-6 border border-gray-300 transition-all hover:scale-95 hover:border-blue-700"
+    <motion.div
+      whileHover={{ y: -5 }}
+      className="glass-card group p-8 flex flex-col justify-between h-full"
     >
-      <h2 className="text-xl font-semibold mb-4">{name}</h2>
-      <p className="text-gray-600 mb-4">{description}</p>
-      <div className="mb-4">
-        <span className="inline-block bg-gray-200 text-gray-800 py-1 px-2 rounded-full text-sm mr-2">
-          {type}
-        </span>
-        <span className="inline-block bg-gray-200 text-gray-800 mt-1 py-1 px-2 rounded-full text-sm">
-          {date}
-        </span>
+      <div>
+        <div className="flex justify-between items-start mb-8">
+          <div className="flex flex-col gap-1">
+            <span className="text-[10px] uppercase tracking-widest text-primary-400 font-bold">
+              {type}
+            </span>
+            <span className="text-xs text-brand-muted">{date}</span>
+          </div>
+          <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-brand-muted group-hover:text-primary-400 group-hover:border-primary-500/30 transition-all duration-300">
+            {linkText === "Github" ? (
+              <FaGithub size={20} />
+            ) : (
+              <FaExternalLinkAlt size={16} />
+            )}
+          </div>
+        </div>
+
+        <h3 className="text-2xl font-extrabold mb-4 text-white group-hover:text-primary-400 transition-all duration-300">
+          {name}
+        </h3>
+
+        <p className="text-brand-muted leading-relaxed mb-8 line-clamp-3 group-hover:line-clamp-none transition-all duration-500">
+          {description}
+        </p>
+
+        <div className="flex flex-wrap gap-2 mb-8">
+          {skills &&
+            skills.map((skill) => (
+              <span key={skill} className="skill-badge">
+                {skill}
+              </span>
+            ))}
+        </div>
       </div>
-    </Link>
+
+      <div className="pt-6 border-t border-white/5">
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-white font-bold hover:text-primary-400 transition-colors group/link"
+        >
+          {linkText || "View Project"}
+          <span className="transform group-hover/link:translate-x-1 transition-transform duration-300">
+            <FaExternalLinkAlt size={12} />
+          </span>
+        </a>
+      </div>
+    </motion.div>
   );
 };
 

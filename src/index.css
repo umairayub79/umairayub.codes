@@ -1,9 +1,114 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-#root {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+@theme {
+  --color-brand-bg: #030712;
+  --color-brand-card: #111827;
+  --color-brand-muted: #9ca3af;
+  --color-primary-50: #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-200: #bae6fd;
+  --color-primary-300: #7dd3fc;
+  --color-primary-400: #38bdf8;
+  --color-primary-500: #0ea5e9;
+  --color-primary-600: #0284c7;
+  --color-primary-700: #0369a1;
+  --color-accent: #22d3ee;
+
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+
+  --animate-fade-in: fade-in 0.8s ease-out forwards;
+  --animate-slide-up: slide-up 0.8s ease-out forwards;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes slide-up {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-white font-sans antialiased;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-6 py-24;
+  }
+
+  .solid-text-accent {
+    @apply text-primary-400;
+  }
+
+  .glass-card {
+    @apply bg-neutral-900/50 backdrop-blur-xl border border-white/10 rounded-2xl transition-all duration-300;
+  }
+
+  .glass-card:hover {
+    @apply bg-neutral-900/80 border-primary-500/30 shadow-2xl -translate-y-1;
+  }
+
+  .solid-button {
+    @apply relative px-8 py-3 rounded-full font-medium transition-all duration-300 flex items-center justify-center gap-2 bg-primary-600/20 border border-primary-500/30 text-white;
+  }
+
+  .solid-button:hover {
+    @apply bg-primary-600/40 border-primary-500 transform -translate-y-1 shadow-[0_10px_20px_-10px_rgba(14,165,233,0.3)];
+  }
+
+  .nav-link {
+    @apply text-brand-muted hover:text-white transition-colors duration-300 relative py-1;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute bottom-0 left-0 w-full h-0.5 bg-primary-500 origin-right transition-transform duration-300 scale-x-0;
+  }
+
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    @apply scale-x-100 origin-left;
+  }
+
+  .bg-blur {
+    @apply fixed top-0 left-0 w-full h-full -z-10 pointer-events-none bg-[#030712];
+  }
+
+  .experience-card {
+    @apply relative pl-8 border-l border-white/10 pb-12 last:pb-0;
+  }
+
+  .experience-card::before {
+    @apply content-[''] absolute left-[-5px] top-0 w-2.5 h-2.5 rounded-full bg-primary-500 shadow-[0_0_10px_rgba(14,165,233,0.5)];
+  }
+
+  .skill-badge {
+    @apply px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] uppercase tracking-wider text-primary-300 font-medium whitespace-nowrap;
+  }
 }
