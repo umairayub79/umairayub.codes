@@ -36,14 +36,7 @@ const AboutPage = () => {
                 <span className="text-white"> Web and Mobile development</span>,
                 always aiming for perfection in both code and design.
               </p>
-              <p>
-                A core part of my identity is my work in{" "}
-                <span className="text-primary-400">Cultural Technology</span>.
-                Through projects like TheBalochi, I leverage my technical skills
-                to preserve the linguistic and cultural heritage of the Balochi
-                people, bridging the gap between tradition and the digital
-                future.
-              </p>
+              <p>My identity is deeply connected to cultural technology. With projects like TheBalochi, I work to protect and strengthen the Balochi language and culture, ensuring that our traditions don’t fade but evolve in the digital age.</p>
             </div>
           </motion.div>
 
